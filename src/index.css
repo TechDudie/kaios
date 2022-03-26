@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.app-header {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: black;
+}
+
+.app-link {
+  color: purple;
+  width: calc(100% - 2rem);
+  line-height: 2.8rem;
+}
+
+p {
+  padding: 0 1rem;
+}
